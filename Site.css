@@ -1,2 +1,20 @@
 ﻿body {
 }
+
+
+
+/*JUMBOTRON*/
+.jumbotron {
+    background-image:url(Images/tuscany-villas-sant-anna.jpg);
+    background-size:cover;
+    width:100%;
+    height:350px;
+}
+
+.smallImage{
+    margin-right:0px;
+    width:100%;
+    height:350px;
+}
+
+
