@@ -148,3 +148,51 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
     background-color: darkslategrey;
     color: white;
 }
+
+/*CAROUSEL*/
+.item {
+    text-align:center;
+    vertical-align:middle;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.userReview {
+    font-style: italic;
+}
+.carousel-indicators li {
+  background-color: darkslategrey;
+  background-color: rgba(80,80,80,0.25);
+}
+
+.carousel-indicators .active {
+  background-color: darkslategrey;
+}
+
+/*CONTACT*/
+.contactInfo {
+    padding-top:50px;
+    padding-left:40px;
+}
+.contactForm {
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:40px;
+}
+#name {
+    height:25px;
+    width:300px;
+}
+#email {
+    height:25px;
+    width:300px;
+}
+#comments {
+    width:100%
+}
+#submitForm {
+    background-color: darkslategrey;
+    color: white;
+    text-align:right;
+}
+
+/*FOOTER*/
