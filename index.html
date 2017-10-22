@@ -12,13 +12,13 @@
             crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="Site.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <!--NAV BAR--> 
-    <nav class="navbar navbar-default">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-inverse navbar-static-top" id="navigator" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -33,8 +33,6 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">LOCATIONS</a></li>
                     <li><a href="#">AMENITIES</a></li>
@@ -45,42 +43,60 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    <!--JUMBOTRON-->
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-            <div class="jumbotron">
-                <div class="container-fluid">
-                    <h1>Tuscany Villa</h1>
-                    <p>We specialize in relaxation</p>
-                </div>
-            </div>
+    <!--HEADER-->
+    <div class="row container-fluid header">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 container" id="santAnna">
+            <h1>Tuscany Villa</h1>
+            <p>We specialize in relaxation</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-           <img class="smallImage align-right" src="Images/Versilia.jpg" width="300" height="350" />
-        </div> 
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 container" >
+            <img src="Content/Images/Versilia.jpg" alt="Map of Tuscany region" class="img-responsive" id="map" />
+        </div>
     </div>
 
-   
-
-
     <!--LOCATIONS-->
-    <div class="row container-fluid">
+    <div class="row container-fluid locations">
         <h3>LOCATIONS</h3>
         <p>Some places for you to go</p>
     </div>
 
-    <!--Location #1-->
-    <div class="row container"
-         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-              <h4>Location #1</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et facilisis justo, sed vestibulum arcu. Fusce faucibus vestibulum mattis. Vivamus non consectetur massa. Curabitur a nulla nec lacus viverra hendrerit eget et ipsum. Proin quis sapien vehicula, tempor sapien in, fermentum velit. Nam ultricies nunc a orci elementum condimentum. Nullam tincidunt, neque ut euismod cursus, orci lorem pretium purus, id semper mauris metus id nisi. Ut tincidunt justo nec nisi lobortis facilisis. Sed ut eros non quam tristique molestie. Aenean id elit viverra, molestie sapien ut, molestie nibh.</p>
-         </div>
-         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-             <img src="Images/italy-mountain-villa.jpeg" alt="mountain villa with snow in Italy" width=240 />
-         </div>
-
-
+    <!--LOCATION 1-->
+    <div class="row container-fluid locationSegmentOdd">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 locationTextOdd">
+            <h4>Location #1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at erat ex. Praesent euismod erat lorem, sit amet cursus nisl consectetur sit amet. Etiam fringilla suscipit sem, vel gravida libero tristique eu. Quisque blandit lacus nisl, quis vehicula eros ultricies ut. Sed ac nulla libero. Suspendisse neque felis, rutrum eu metus vitae, varius porttitor nisl. Curabitur nibh orci, convallis nec fermentum sit amet, accumsan eu magna. Donec gravida pellentesque turpis, in mattis ipsum ullamcorper ac. In sodales metus odio, eget commodo turpis fermentum egestas. Praesent vitae est nec nulla viverra molestie non eu mauris. Praesent eu ante tempor, commodo ipsum eget, tristique nibh. Donec porttitor felis quis velit egestas, nec luctus neque commodo. Nullam sagittis sagittis magna, a bibendum odio malesuada non.</p>
+            <p><a href="#" class="btn buttonOdd" role="button">Reserve Now!</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="Content/Images/italy-mountain-villa.jpeg" alt="Snowy mountains in Tuscany" class="img-responsive" id="mountains"/>
+        </div>
     </div>
+
+    <!--LOCATION 2-->
+    <div class="row container-fluid locationSegmentEven">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="Content/Images/modern-villa.jpeg" alt="Modern villa in Tuscany" class="img-responsive" id="modern"/>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="locationTextEven">
+            <h4>Location #2</h4>
+            <p>Duis ornare turpis lorem, at hendrerit felis pretium id. Donec pharetra neque quis nibh molestie molestie. Praesent ac sodales sem. Phasellus a venenatis massa, et aliquet arcu. Sed ac eros et ex finibus consectetur quis non nulla. Mauris vel pharetra mi. Integer fringilla sed libero ac imperdiet. Ut a tristique odio, sit amet ultrices arcu.</p>
+            <p><a href="#" class="btn buttonEven" role="button">Check It Out!</a></p>
+        </div> 
+    </div>
+
+    <!--LOCATION 3-->
+    <div class="row container-fluid locationSegmentOdd">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <h4>Location #3</h4>
+            <p>Mauris elementum a ipsum vel egestas. Nullam finibus tellus tempor ante malesuada, sit amet ullamcorper felis bibendum. Morbi ultricies pellentesque bibendum. Proin blandit tempor dolor, id tempus arcu elementum ut. Proin cursus sapien condimentum ipsum malesuada facilisis. Nam tortor justo, porta sit amet euismod a, cursus sed nunc. Sed vitae dui vitae quam vehicula hendrerit. Sed sed diam et urna imperdiet consectetur. Vivamus fringilla, elit ac feugiat facilisis, nulla arcu ultrices diam, in maximus erat est id turpis. Ut accumsan eros eu faucibus molestie. Etiam nec laoreet purus, eget vulputate urna. Aliquam condimentum mi dolor, sit amet porta libero vestibulum ut. Maecenas placerat, dui sit amet iaculis pharetra, orci enim tristique est, quis dignissim tortor felis nec metus.</p>
+            <p><a href="#" class="btn buttonOdd" role="button">Join Us!</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="locationTextOdd">
+            <img src="Content/Images/tuscany-grape-field-nature-51947.jpeg" alt="Vineyard in Tuscany" class="img-responsive" id="vineyard" />
+
+        </div>
+    </div>
+
 
 </body>
 </html>
