@@ -2,109 +2,110 @@
 }
 
 /*NAVBAR*/
-nav#navigator.navbar navbar-inverse navbar-static-top {
-    margin-top:0px;
-    margin-bottom:0px;
-    padding:0px;
+#navigator {
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
     background-color: darkslategrey;
     color: white;
 }
 
-#largeImage {
-     margin: 0px 0px 0px 0px;
-     padding: 0px 0px 0px 0px;
-}
-#smallImage {
-     margin: 0px 0px 0px 0px;
-     padding: 0px 0px 0px 0px;
-}
+/*JUMBOTRON*/
 .santAnna {
     background-image:url(Images/tuscany-villas-sant-anna.jpg);
-    background-size:contain; 
+    background-size:cover; 
     background-repeat:no-repeat;
     background-position:center;
     max-width:100%;
-    height: 420px;   
+    height: 400px;   
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
     text-align:center;
-    color:white;
+    color:white; 
 }
 .map {
     max-width:100%;
-    height:420px;
+    height:400px;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
 }
 
+/*SECTION HEADERS*/
 .sectionHeaders {
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
     background-color: darkslategrey;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin: 0px 0px 0px 0px;
+    max-height:100%;
+    max-width:100%;
 }
 
+/*LOCATIONS*/
 .locationSegmentOdd {
     padding-top:40px;
-    padding-right:20px;
+    padding-right:40px;
     padding-bottom:40px;
-    padding-left:20px;
+    padding-left:40px;
 }
-
 .locationSegmentEven {
     padding-top:40px;
-    padding-right:20px;
+    padding-right:40px;
     padding-bottom:40px;
-    padding-left:20px;
+    padding-left:40px;
     background-color:darkslategrey;
 }
-
-#locationTextOdd {
+.locationTextOdd {
     color: darkslategrey;
+    padding-top:20px;
 }
-
-#locationTextEven {
+.locationTextEven {
     color: white;
+    padding-top:20px;
 }
-
 .buttonOdd {
     background-color: darkslategrey;
     color: white;
 }
-
 .buttonEven {
     background-color: white;
     color: darkslategrey;
 }
 
+/*AMENITIES*/
 .amenitiesRowOne {
-    padding-top:40px;
-    height:450px;
+    margin-top:40px;
+    margin-left:25px;
+    margin-right:25px;
+    height:410px;
 }
 .amenitiesRowTwo {
-    height:450px;
+    margin-left:25px;
+    margin-right:25px;
+    height:410px;
 }
-
 .amenitiesRowThree {
-    padding-bottom:40px;
-    height:450px;
+    margin-bottom:40px;
+    margin-left:25px;
+    margin-right:25px;
+    height:410px;
 }
 
 .amenitiesWithPhoto {
     text-align:center;
-    vertical-align:middle;
 }
-
 .buttonAmenitiesLg {
     background-color:rgba(80,80,80,0.6);
     color:white;
     text-wrap:normal;
-    /*transparency*/
+    margin-top:200px;   
 }
 #receptions {
     background-image:url(Images/3b-348x348.jpg);
     background-size:contain; 
     background-repeat:no-repeat;
     background-position:center;
-    height:400px;
+    height:410px;
     max-width:100%;
 }
 #pool {
@@ -112,7 +113,7 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
     background-size:contain; 
     background-repeat:no-repeat;
     background-position:center;
-    height:400px;
+    height:410px;
     max-width:100%;
 }
 #home {
@@ -120,7 +121,7 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
     background-size:contain; 
     background-repeat:no-repeat;
     background-position:center;
-    height:400px;
+    height:410px;
     max-width:100%;
 }
 #views {
@@ -128,7 +129,7 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
     background-size:contain; 
     background-repeat:no-repeat;
     background-position:center;
-    height:400px;
+    height:410px;
     max-width:100%;
 }
 #dining {
@@ -136,17 +137,29 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
     background-size:contain; 
     background-repeat:no-repeat;
     background-position:center;
-    height:400px;
+    height:410px;
     max-width:100%;
 }
 
-
 .amenitiesWithoutPhoto {
     text-align:center;
+    padding-top:40px;
 }
 .buttonAmenitiesSm {
     background-color: darkslategrey;
     color: white;
+}
+
+/*REVIEWS SECTION HEADER*/
+.reviewsHeader {
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px 0px 0px 0px;
+    height:100%;
+    max-width:100%;
 }
 
 /*CAROUSEL*/
@@ -163,7 +176,6 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
   background-color: darkslategrey;
   background-color: rgba(80,80,80,0.25);
 }
-
 .carousel-indicators .active {
   background-color: darkslategrey;
 }
@@ -171,22 +183,23 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
 /*CONTACT*/
 .contactInfo {
     padding-top:50px;
-    padding-left:40px;
+    padding-left:50px;
 }
 .contactForm {
     padding-top:50px;
     padding-bottom:50px;
-    padding-right:40px;
+    padding-right:50px;
+    padding-left:30px;
 }
 #name {
     height:25px;
-    width:300px;
+    width:340px;
 }
 #email {
     height:25px;
-    width:300px;
+    width:340px;
 }
-#comments {
+#comment {
     width:100%
 }
 #submitForm {
