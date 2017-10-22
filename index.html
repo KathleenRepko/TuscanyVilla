@@ -43,19 +43,23 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    <!--HEADER-->
-    <div class="row container-fluid header">
-        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 container" id="santAnna">
-            <h1>Tuscany Villa</h1>
-            <p>We specialize in relaxation</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 container" >
-            <img src="Content/Images/Versilia.jpg" alt="Map of Tuscany region" class="img-responsive" id="map" />
+    <!--JUMBOTRON-->
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" id="largeImage">
+                <div class="jumbotron santAnna">
+                    <h1>Tuscany Villa</h1>
+                    <p>We specialize in relaxation</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <img src="Content/Images/Versilia.jpg" class="img-responsive map" id="smallImage"/>
+            </div>
         </div>
     </div>
 
     <!--LOCATIONS-->
-    <div class="row container-fluid locations">
+    <div class="row container-fluid sectionHeaders">
         <h3>LOCATIONS</h3>
         <p>Some places for you to go</p>
     </div>
@@ -68,14 +72,14 @@
             <p><a href="#" class="btn buttonOdd" role="button">Reserve Now!</a></p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <img src="Content/Images/italy-mountain-villa.jpeg" alt="Snowy mountains in Tuscany" class="img-responsive" id="mountains"/>
+            <img src="Content/Images/italy-mountain-villa.jpeg" alt="Snowy mountains in Tuscany" class="img-responsive"/>
         </div>
     </div>
 
     <!--LOCATION 2-->
     <div class="row container-fluid locationSegmentEven">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <img src="Content/Images/modern-villa.jpeg" alt="Modern villa in Tuscany" class="img-responsive" id="modern"/>
+            <img src="Content/Images/modern-villa.jpeg" alt="Modern villa in Tuscany" class="img-responsive"/>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="locationTextEven">
             <h4>Location #2</h4>
@@ -92,10 +96,66 @@
             <p><a href="#" class="btn buttonOdd" role="button">Join Us!</a></p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="locationTextOdd">
-            <img src="Content/Images/tuscany-grape-field-nature-51947.jpeg" alt="Vineyard in Tuscany" class="img-responsive" id="vineyard" />
+            <img src="Content/Images/tuscany-grape-field-nature-51947.jpeg" alt="Vineyard in Tuscany" class="img-responsive" />
 
         </div>
     </div>
+    
+    <!--AMENITIES-->
+    <div class="row container-fluid sectionHeaders">
+        <h3>AMENITIES</h3>
+        <p>Some stuff for you to enjoy</p>
+    </div>
+
+    <div class="row container amenitiesRowOne">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 container amenitiesWithPhoto" id="receptions">
+            <p><a href="#" class="btn btn-lg buttonAmenitiesLg" role="button">RECEPTIONS</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 container amenitiesWithoutPhoto">
+            <h3>A VILLA FOR EVERY OCCASION</h3>
+            <p>Aliquam erat volutpat. Ut ac velit non erat laoreet varius et sed tortor. Duis sit amet ullamcorper velit, a mollis lacus. Etiam maximus metus pellentesque sem aliquet, sit amet accumsan ante egestas. Mauris lacinia neque id libero malesuada, sit amet porttitor augue pellentesque. Nullam metus elit, varius et neque ac, egestas lobortis tortor. Maecenas diam metus, laoreet eget convallis eu, facilisis eget tellus. Maecenas finibus blandit fermentum.</p>
+            <p><a href="#" class="btn buttonAmenitiesSm" role="button">Check It Out!</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 container amenitiesWithPhoto" id="pool">
+            <p><a href="#" class="btn btn-lg buttonAmenitiesLg" role="button">RELAX BY THE POOL</a></p>
+        </div>
+    </div>
+    <div class="row container amenitiesRowTwo">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 amenitiesWithoutPhoto">
+            <h3>WHAT SETS US APART</h3>
+            <p>Aliquam erat volutpat. Ut ac velit non erat laoreet varius et sed tortor. Duis sit amet ullamcorper velit, a mollis lacus. Etiam maximus metus pellentesque sem aliquet, sit amet accumsan ante egestas. Mauris lacinia neque id libero malesuada, sit amet porttitor augue pellentesque. Nullam metus elit, varius et neque ac, egestas lobortis tortor. Maecenas diam metus, laoreet eget convallis eu, facilisis eget tellus. Maecenas finibus blandit fermentum.</p>
+            <p><a href="#" class="btn buttonAmenitiesSm" role="button">Check It Out!</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 amenitiesWithPhoto" id="home">
+            <p><a href="#" class="btn btn-lg buttonAmenitiesLg" role="button">FEELS LIKE HOME</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 amenitiesWithoutPhoto">
+            <h3>TALK TO STAFF</h3>
+            <p>Aliquam erat volutpat. Ut ac velit non erat laoreet varius et sed tortor. Duis sit amet ullamcorper velit, a mollis lacus. Etiam maximus metus pellentesque sem aliquet, sit amet accumsan ante egestas. Mauris lacinia neque id libero malesuada, sit amet porttitor augue pellentesque. Nullam metus elit, varius et neque ac, egestas lobortis tortor. Maecenas diam metus, laoreet eget convallis eu, facilisis eget tellus. Maecenas finibus blandit fermentum.</p>
+            <p><a href="#" class="btn buttonAmenitiesSm" role="button">Check It Out!</a></p>
+        </div>
+    </div>
+    <div class="row container amenitiesRowThree">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 container amenitiesWithPhoto" id="views">
+            <p><a href="#" class="btn btn-lg buttonAmenitiesLg" role="button">ENJOY THE VIEWS</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 container amenitiesWithoutPhoto">
+            <h3>BOOK YOUR VILLA</h3>
+            <p>Aliquam erat volutpat. Ut ac velit non erat laoreet varius et sed tortor. Duis sit amet ullamcorper velit, a mollis lacus. Etiam maximus metus pellentesque sem aliquet, sit amet accumsan ante egestas. Mauris lacinia neque id libero malesuada, sit amet porttitor augue pellentesque. Nullam metus elit, varius et neque ac, egestas lobortis tortor. Maecenas diam metus, laoreet eget convallis eu, facilisis eget tellus. Maecenas finibus blandit fermentum.</p>
+            <p><a href="#" class="btn buttonAmenitiesSm" role="button">Check It Out!</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 container amenitiesWithPhoto" id="dining">
+            <p><a href="#" class="btn btn-lg buttonAmenitiesLg" role="button">PRIVATE DINING</a></p>
+        </div>
+    </div>
+
+    <!--REVIEWS-->
+    <div class="row container-fluid sectionHeaders">
+        <h3>REVIEWS</h3>
+        <p>What our customers say</p>
+    </div>
+   
+     <!--CAROUSEL-->
 
 
 </body>

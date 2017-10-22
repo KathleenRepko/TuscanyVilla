@@ -10,38 +10,36 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
     color: white;
 }
 
-.header {
-    height:360px;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
+#largeImage {
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
 }
-
-#santAnna {
+#smallImage {
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+.santAnna {
     background-image:url(Images/tuscany-villas-sant-anna.jpg);
     background-size:contain; 
     background-repeat:no-repeat;
     background-position:center;
     max-width:100%;
-    height: 360px;   
+    height: 420px;   
     text-align:center;
     color:white;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
+}
+.map {
+    max-width:100%;
+    height:420px;
 }
 
-#map {
-    max-width: 100%;
-    height: 360px;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
-}
-
-.locations {
+.sectionHeaders {
     text-align:center;
     color:white;
     background-color: darkslategrey;
     padding-top:10px;
     padding-bottom:10px;
+    margin: 0px 0px 0px 0px;
 }
 
 .locationSegmentOdd {
@@ -75,4 +73,78 @@ nav#navigator.navbar navbar-inverse navbar-static-top {
 .buttonEven {
     background-color: white;
     color: darkslategrey;
+}
+
+.amenitiesRowOne {
+    padding-top:40px;
+    height:450px;
+}
+.amenitiesRowTwo {
+    height:450px;
+}
+
+.amenitiesRowThree {
+    padding-bottom:40px;
+    height:450px;
+}
+
+.amenitiesWithPhoto {
+    text-align:center;
+    vertical-align:middle;
+}
+
+.buttonAmenitiesLg {
+    background-color:rgba(80,80,80,0.6);
+    color:white;
+    text-wrap:normal;
+    /*transparency*/
+}
+#receptions {
+    background-image:url(Images/3b-348x348.jpg);
+    background-size:contain; 
+    background-repeat:no-repeat;
+    background-position:center;
+    height:400px;
+    max-width:100%;
+}
+#pool {
+    background-image:url(Images/42-348x348.jpg);
+    background-size:contain; 
+    background-repeat:no-repeat;
+    background-position:center;
+    height:400px;
+    max-width:100%;
+}
+#home {
+    background-image:url(Images/314-348x348.jpg);
+    background-size:contain; 
+    background-repeat:no-repeat;
+    background-position:center;
+    height:400px;
+    max-width:100%;
+}
+#views {
+    background-image:url(Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg);
+    background-size:contain; 
+    background-repeat:no-repeat;
+    background-position:center;
+    height:400px;
+    max-width:100%;
+}
+#dining {
+    background-image:url(Images/Villa-Vanna-231-348x348.jpg);
+    background-size:contain; 
+    background-repeat:no-repeat;
+    background-position:center;
+    height:400px;
+    max-width:100%;
+}
+
+
+.amenitiesWithoutPhoto {
+    text-align:center;
+}
+.buttonAmenitiesSm {
+    background-color: darkslategrey;
+    color: white;
 }
